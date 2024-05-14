@@ -174,7 +174,43 @@ img {
   display: flex;
   align-items: center;
 }
-body {
+@media screen and (min-width: 1200px) {
+  .shopping-selection-little {
+    justify-content: flex-end;
+  }
+  .shopping-reset-promocode {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    flex-direction: column;
+  }
+  .selection-input-inbox {
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+  .shopping-selection {
+    width: 1200px;
+    flex-shrink: 0;
+  }
+  .selection {
+    width: 1200px;
+    height: 11421px;
+    flex-shrink: 0;
+  }
+  .shopping {
+    display: flex;
+    gap: 37px;
+    flex-wrap: nowrap;
+    align-items: baseline;
+  }
+  .shopping-image {
+    width: 199px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+}
+/* body {
   height: 100%;
   background: rgba(254, 221, 153, 0.82);
 }
@@ -232,7 +268,7 @@ body {
   height: 39px;
   padding: 0%;
   /* position: absolute; */
-}
+/* } */
 .hero-navigation-list-dark {
   background: #b3b0a3;
   height: 39px;
@@ -359,7 +395,7 @@ body {
     line-height: 60px;
     letter-spacing: 0.36px;
   }
-  .hero-navigation-list-dark-bg{
+  .hero-navigation-list-dark-bg {
     width: 1200px;
     background: #b3b0a3;
     height: 60px;
@@ -436,7 +472,7 @@ body {
     background: #fff;
   }
 }
-*/ body {
+*/ */ body {
   font-family: Noto Sans TC;
 }
 .dumpligs {
@@ -704,4 +740,179 @@ body {
     font-size: 14px;
     line-height: 1.57;
   }
+}
+.cookbook {
+}
+.ilist {
+}
+.list-item {
+  display: flex;
+}
+.list-item-title {
+  display: flex;
+}
+.list-item-text {
+  color: #2a1804;
+  font-family: "Noto Serif TC";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.36px;
+}
+.list-item-text-title {
+  color: #2a1804;
+  font-family: "Noto Sans TC";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1.68px;
+  padding-left: 15px;
+  margin-left: 36px;
+  margin-right: 23px;
+}
+.list-item-text-subtitle {
+}
+.list-item-photo {
+  width: 320px;
+  height: 320px;
+}
+.list-item-listphoto {
+  width: 280px;
+  height: 350px;
+}
+.list-item-lastphoto {
+  width: 321px;
+  height: 261px;
+}
+.cooking {
+}
+body {
+  font-family: "Noto Sans TC";
+}
+
+.cookbook {
+  padding-bottom: 27px;
+}
+
+.container {
+}
+
+.cookbook-title {
+  color: #2a1804;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 1.68px;
+  width: 261px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.cookbook-image {
+  width: 320px;
+  height: 320px;
+}
+
+.container-small {
+  max-width: 302px;
+  margin: 0 auto;
+}
+
+.cookbook-text {
+  color: #2a1804;
+  font-size: 15px;
+  line-height: 1.46;
+  letter-spacing: 0.36px;
+}
+
+.cooking {
+}
+
+.container_big {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.cooking-title {
+  text-align: center;
+  margin-bottom: 13px;
+  color: #2a1804;
+  font-size: 24px;
+  line-height: 1.99;
+  letter-spacing: 0.36px;
+}
+
+.list {
+}
+
+.list-item {
+  margin-bottom: 27px;
+}
+
+.list-item:last-child {
+  margin-bottom: 0;
+}
+
+.cooking-list-item-image {
+  margin: 0 auto;
+  width: 280px;
+  height: 350px;
+  margin-bottom: 23px;
+}
+
+.cooking-list-item-title {
+  text-align: center;
+  color: #2a1804;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.48px;
+  margin-bottom: 7px;
+}
+
+.cooking-list-item-text {
+  text-align: center;
+  color: #2a1804;
+  font-size: 13px;
+  line-height: 1.69;
+}
+
+.cooking-image {
+  width: 321px;
+  height: 261px;
+  top: 20px;
+  position: relative;
+  max-width: fit-content;
+  left: -20px;
+}
+
+.cooking-flex_box {
+}
+
+.cooking-box {
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+.cooking-box-title {
+  color: #2a1804;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.48px;
+}
+
+.cooking-box-text {
+  margin-bottom: 23px;
+  color: #2a1804;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.36px;
+}
+
+.cooking-button {
+  color: #2a1804;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+  width: 180px;
+  height: 49px;
+  border: 1px solid #2a1804;
 }
