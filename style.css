@@ -120,14 +120,11 @@ img {
   background: #fbe570;
   border: 0;
 }
-<<<<<<< HEAD
 .selection-input-line {
   width: 58px;
   height: 1px;
   margin-top: auto;
 }
-=======
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
 
 .selection-input-inbox {
   margin-right: 5px;
@@ -208,7 +205,6 @@ img {
   align-items: center;
 }
 
-<<<<<<< HEAD
 .shopping-button {
   display: flex;
 }
@@ -222,8 +218,6 @@ img {
   background-color: transparent;
 }
 
-=======
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
 @media screen and (min-width: 1200px) {
   .shopping-selection-little {
   }
@@ -251,7 +245,6 @@ img {
     height: 0px;
     flex-shrink: 0;
   }
-
   .shopping-reset-promocode {
     display: flex;
     flex-wrap: wrap;
@@ -555,26 +548,21 @@ body {
 body {
   font-family: Noto Sans TC;
 }
-
 .dumpligs {
   padding-bottom: 25px;
 }
-
 .container {
   margin: 0 auto;
   max-width: 320px;
 }
-
 .container_big {
   max-width: 280px;
   margin: 0 auto;
 }
-
 .container_small {
   max-width: 302px;
   margin: 0 auto;
 }
-
 .dumpligs-title {
   text-align: center;
   margin-bottom: 6px;
@@ -582,165 +570,133 @@ body {
   line-height: 1.925;
   letter-spacing: 0.36px;
 }
-
 .dumpligs-image {
   margin-bottom: 33px;
   width: 320px;
   height: 221px;
 }
-
 .dumpligs-list {
 }
-
 .dumpligs-list-item {
   margin-bottom: 23px;
 }
-
 .dumpligs-list-item-image {
   margin-bottom: 22px;
   width: 280px;
   height: 350px;
 }
-
 .dumpligs-list-item-title {
   margin-bottom: 8px;
   font-size: 22px;
   line-height: 1.25;
   letter-spacing: 0.47px;
 }
-
 .dumpligs-list-item-text {
   font-size: 15px;
   line-height: 1.47;
 }
-
 .dumpligs-list-item:last-child {
   margin-bottom: 0px;
 }
-
 .Latest {
 }
-
 .Latest-title {
   margin-bottom: 25px;
   font-size: 32px;
   line-height: 1.44;
   letter-spacing: 0.36px;
 }
-
 .Latest-list {
 }
-
 .Latest-list-item {
   margin-bottom: 35px;
   display: flex;
   gap: 9px;
 }
-
 .Latest-list-item-image {
   width: 70px;
   height: 75px;
 }
-
 .Latest-list-item-title {
   margin-bottom: 3px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.47px;
 }
-
 .Latest-list-item-text {
   font-size: 12px;
   line-height: 1.25;
 }
-
 .popular {
 }
-
 .popular-title {
   margin-bottom: 16px;
   font-size: 12px;
   line-height: 1.25;
 }
-
 .popular-list {
 }
-
 .popular-list-item:first-child {
   margin-bottom: 16px;
 }
-
 .popular-list-item-image {
   margin-bottom: 24px;
   width: 320px;
   height: 555px;
 }
-
 .popular-list-item-title {
   text-align: center;
   font-size: 21px;
   line-height: 1.43;
   letter-spacing: 0.47px;
 }
-
 .popular-list-item-text {
   text-align: center;
   font-size: 14px;
   line-height: 1.57;
 }
-
 .popular-list-small {
   text-align: center;
 }
-
 .popular-list-small-item {
   margin-bottom: 24px;
 }
-
 .popular-list-small-item-image {
   margin-bottom: 23px;
   width: 280px;
   height: 350px;
 }
-
 .popular-list-small-item-title {
   margin-bottom: 10px;
   font-size: 22px;
   line-height: 1.36;
   letter-spacing: 0.47px;
 }
-
 .popular-list-small-item-text {
   font-size: 14px;
   line-height: 1.57;
 }
-
 @media (min-width: 1200px) {
   .dumpligs {
     padding-bottom: 271px;
   }
-
   .container {
     max-width: 1140px;
   }
-
   .dumpligs-title {
     margin-bottom: 59px;
     text-align: left;
     font-size: 36px;
     line-height: 1.28;
   }
-
   .dumpligs-image {
     margin-bottom: 90px;
     width: 1140px;
     height: 641px;
   }
-
   .container_big {
     max-width: 1020px;
   }
-
   .dumpligs-list {
     display: flex;
     flex-wrap: wrap;
@@ -748,18 +704,15 @@ body {
     column-gap: 90px;
     width: 1020px;
   }
-
   .dumpligs-list-item {
     margin-bottom: 0px;
     width: 280px;
   }
-
   .dumpligs-list-item-image {
     margin-bottom: 23px;
     width: 280px;
     height: 350px;
   }
-
   .dumpligs-list-item-title {
     width: 235px;
     margin-bottom: 7px;
@@ -767,26 +720,21 @@ body {
     font-size: 22px;
     line-height: 1.36;
   }
-
   .dumpligs-list-item-text {
     font-size: 15px;
     line-height: 1.46;
   }
-
   .Latest {
     padding-bottom: 205px;
   }
-
   .container_small {
     max-width: 1140px;
   }
-
   .Latest-title {
     margin-bottom: 59px;
     font-size: 38px;
     line-height: 1.21;
   }
-
   .Latest-list {
     display: flex;
     flex-wrap: wrap;
@@ -794,39 +742,32 @@ body {
     column-gap: 40px;
     width: 1140px;
   }
-
   .Latest-list-item {
     margin-bottom: 0px;
     row-gap: 20px;
     width: 542px;
   }
-
   .Latest-list-item-image {
     width: 134px;
     height: 134px;
   }
-
   .Latest-list-item-title {
     margin-bottom: 10px;
     font-size: 23px;
     line-height: 1.36;
   }
-
   .Latest-list-item-text {
     font-size: 14px;
     line-height: 1.57;
   }
-
   .popular {
     padding-bottom: 279px;
   }
-
   .popular-title {
     margin-bottom: 59px;
     font-size: 38px;
     line-height: 1.21;
   }
-
   .popular-list {
     justify-content: center;
     margin-bottom: 194px;
@@ -834,36 +775,28 @@ body {
     flex-wrap: wrap;
     column-gap: 38px;
   }
-
   .popular-list-item {
     width: 497px;
   }
-
   .popular-list-item-image {
     margin-bottom: 30px;
     width: 497px;
     height: 555px;
   }
-
   .popular-list-item-title {
     margin-bottom: 33px;
     font-size: 21px;
     line-height: 1.42;
   }
-
   .popular-list-item-text {
     width: 425px;
     text-align: left;
     font-size: 15px;
     line-height: 1.46;
   }
-<<<<<<< HEAD
   .popular-list-item:nth-child(2) > .popular-list-item-text {
     width: 401px;
   }
-=======
-
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   .popular-list-small {
     text-align: left;
     display: flex;
@@ -871,37 +804,29 @@ body {
     column-gap: 90px;
     width: 1020px;
   }
-
   .popular-list-small-item {
     margin-bottom: 0px;
     width: 280px;
   }
-
   .popular-list-small-item-image {
     margin-bottom: 20px;
     width: 280px;
     height: 350px;
   }
-
   .popular-list-small-item-title {
     margin-bottom: 10px;
     font-size: 22px;
     line-height: 1.36;
   }
-<<<<<<< HEAD
   .popular-list-small-item:nth-child(2) > .popular-list-small-item-title {
     width: 200px;
     text-align: left;
   }
-=======
-
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   .popular-list-small-item-text {
     font-size: 14px;
     line-height: 1.57;
   }
 }
-<<<<<<< HEAD
 .header {
   top: 0;
   position: absolute;
@@ -927,32 +852,10 @@ body {
 .header-navigation-list {
 }
 .header-navigation-dark-bg {
-=======
-body {
-  height: 100%;
-  font-family: "Noto Serif TC";
-}
-@media screen and (max-width: 1199px) {
-}
-.header-navigation {
-}
-.container {
-}
-.header-navigation-list {
-  column-gap: 18px;
-  width: 240px;
-  max-width: 320px;
-  width: 100%;
-  position: absolute;
-  margin-top: 57px;
-}
-.header-dark-bg {
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   width: 100%;
   background: #b3b0a3;
   height: 39px;
 }
-<<<<<<< HEAD
 .header-navigation-list-dark {
   padding: 0 11px;
   display: flex;
@@ -974,43 +877,13 @@ body {
   letter-spacing: 0.36px;
 }
 .header-navigation-list-light {
-=======
-.header-list-item-dark {
-  height: 39px;
-  max-width: 200px;
-  padding: 0 11px;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 18px;
-  width: 240px;
-}
-.header-list-dark-item {
-  display: flex;
-}
-.header-list-dark-item-text {
-  color: #2a1804;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.36px;
-}
-.header-item {
-  display: inline-block;
-}
-.header-dark-item {
-}
-.header-light {
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   padding: 0 11px;
   display: flex;
   flex-wrap: wrap;
   width: 270px;
   column-gap: 18px;
 }
-<<<<<<< HEAD
 .header-navigation-list-item-light {
-=======
-.header-light-item {
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
 }
 .header-light-item-text {
   color: #2a1804;
@@ -1022,7 +895,6 @@ body {
 }
 .hero {
 }
-<<<<<<< HEAD
 .hero-container {
 }
 .hero-list {
@@ -1036,21 +908,6 @@ body {
   position: absolute;
   top: 255px;
   left: 8px;
-=======
-.hero-title {
-  font-family: Inter;
-  color: #2a1804;
-  font-size: 48px;
-  font-weight: 700;
-  background: #fdf9f1;
-  width: 100%;
-  height: 57px;
-  display: flex;
-  justify-content: center;
-}
-.hero-list {
-  margin-top: 97px;
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
 }
 .hero-list-item {
   position: absolute;
@@ -1059,20 +916,14 @@ body {
   height: 244px;
   left: 28px;
 }
-<<<<<<< HEAD
 .hero-list-item-tbc {
 }
-=======
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
 .hero-list-item-img {
   width: 260px;
   height: 242px;
 }
-<<<<<<< HEAD
 .hero-list-item-img-tbc {
 }
-=======
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
 .hero-list-item-white {
 }
 .hero-list-item-white-text {
@@ -1083,7 +934,6 @@ body {
   letter-spacing: 0.398px;
   background: #fff;
 }
-<<<<<<< HEAD
 .hero-list-item-gpm {
 }
 .hero-list-item-img-gpm {
@@ -1091,22 +941,11 @@ body {
 .hero-list-item-sfrcb {
 }
 .hero-list-item-img-sfrcb {
-=======
-.hero-list-item-button {
-}
-.hero-list-item-button-right {
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  top: 270px;
-  left: 8px;
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
 }
 .hero-list-item-button-left {
   background-color: transparent;
   border: none;
   position: absolute;
-<<<<<<< HEAD
   top: 255px;
   right: 8px;
 }
@@ -1134,28 +973,10 @@ body {
     width: 1200px;
   }
   .header-navigation-dark-bg {
-=======
-  top: 270px;
-  left: 299px;
-}
-@media screen and (min-width: 1200px) {
-  .header-navigation {
-    width: 1200;
-  }
-  .container {
-  }
-  .header-navigation-list {
-    width: 1200px;
-    position: absolute;
-    margin-top: 192px;
-  }
-  .header-dark-bg {
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
     width: 1200px;
     background: #b3b0a3;
     height: 60px;
   }
-<<<<<<< HEAD
   .header-navigation-list-dark {
     width: 1200px;
   }
@@ -1167,34 +988,14 @@ body {
     max-width: 1200px;
   }
   .header-navigation-list-dark-item-text {
-=======
-  .header-list-item-dark {
-    color: #2a1804;
-    width: 1200px;
-    max-width: 1200px;
-  }
-  .header-item {
-    display: inline-block;
-  }
-  .header-list-dark-item {
-  }
-  .header-list-dark-item-text {
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
     font-size: 19px;
     line-height: 60px;
     letter-spacing: 0.36px;
   }
-<<<<<<< HEAD
   .header-navigation-list-light {
     width: 1200px;
   }
   .header-navigation-list-item-light {
-=======
-  .header-light {
-    width: 1200px;
-  }
-  .header-light-item {
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
     display: inline-block;
     color: #2a1804;
   }
@@ -1207,26 +1008,12 @@ body {
   }
   .hero {
   }
-<<<<<<< HEAD
   .hero-container {
-=======
-  .hero-title {
-    color: #2a1804;
-    font-size: 170px;
-    font-weight: 700;
-    background: #fdf9f1;
-    background: width 100%;
-    width: 1200px;
-    height: 192px;
-    padding: 0 9px;
-    text-align: center;
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   }
   .hero-list {
     position: absolute;
     top: 208px;
   }
-<<<<<<< HEAD
   .hero-list-item-button {
     display: none;
   }
@@ -1243,12 +1030,6 @@ body {
     height: 601px;
   }
   .hero-list-item-img-tbc {
-=======
-  .hero-list-item-img {
-    border: 1px solid rgb(239, 165, 5);
-  }
-  .hero-list-item-img {
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   }
   .hero-list-item-white {
   }
@@ -1260,50 +1041,21 @@ body {
     letter-spacing: 0.398px;
     background: #fff;
   }
-<<<<<<< HEAD
-=======
-  .hero-list-item-tbc {
-    width: 488px;
-    height: 601px;
-    left: 23px;
-    top: 60px;
-  }
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   .hero-list-item-gpm {
     width: 489px;
     height: 602px;
     left: 358px;
   }
-<<<<<<< HEAD
   .hero-list-item-img-gpm {
   }
-=======
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   .hero-list-item-sfrcb {
     width: 479px;
     height: 596px;
     left: 698px;
     top: 64px;
   }
-<<<<<<< HEAD
   .hero-list-item-img-sfrcb {
   }
   .hero-list-item-button-left {
-=======
-  .hero-list-item-img-tbc {
-    width: 490px;
-    height: 603px;
-  }
-  .hero-list-item-img-gpm {
-    width: 490px;
-    height: 603px;
-  }
-  .hero-list-item-img-sfrcb {
-    width: 480px;
-    height: 595px;
-  }
-  .hero-list-item-button {
-    display: none;
->>>>>>> 454d91a3529305689e92548a973b5af2c8c8a3ca
   }
 }
