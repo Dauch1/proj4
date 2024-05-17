@@ -35,9 +35,6 @@ img {
   text-transform: uppercase;
 }
 
-.shopping-list {
-}
-
 .shopping {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -331,8 +328,7 @@ body {
   padding-bottom: 27px;
 }
 
-.container {
-}
+
 
 .cookbook-title {
   color: #2a1804;
@@ -361,8 +357,7 @@ body {
   letter-spacing: 0.36px;
 }
 
-.cooking {
-}
+
 
 .container_big {
   max-width: 280px;
@@ -378,8 +373,7 @@ body {
   letter-spacing: 0.36px;
 }
 
-.list {
-}
+
 
 .list-item {
   margin-bottom: 27px;
@@ -421,8 +415,7 @@ body {
   left: -20px;
 }
 
-.cooking-flex_box {
-}
+
 
 .cooking-box {
   padding-top: 40px;
@@ -581,8 +574,7 @@ body {
   height: 221px;
 }
 
-.dumpligs-list {
-}
+
 
 .dumpligs-list-item {
   margin-bottom: 23px;
@@ -610,8 +602,7 @@ body {
   margin-bottom: 0px;
 }
 
-.Latest {
-}
+
 
 .Latest-title {
   margin-bottom: 25px;
@@ -620,8 +611,7 @@ body {
   letter-spacing: 0.36px;
 }
 
-.Latest-list {
-}
+
 
 .Latest-list-item {
   margin-bottom: 35px;
@@ -646,8 +636,7 @@ body {
   line-height: 1.25;
 }
 
-.popular {
-}
+
 
 .popular-title {
   margin-bottom: 16px;
@@ -655,8 +644,6 @@ body {
   line-height: 1.25;
 }
 
-.popular-list {
-}
 
 .popular-list-item:first-child {
   margin-bottom: 16px;
@@ -892,8 +879,7 @@ body {
 .header-container{
     width: 320px;
 }
-.container {
-}
+
 .header-title {
     font-family: Inter;
     color: #2a1804;
@@ -905,10 +891,7 @@ body {
     display:flex;
     justify-content: center;
 }
-.header-navigation {
-}
-.header-navigation-list {
-}
+
 .header-navigation-dark-bg {
     width: 100%;
     background: #b3b0a3;
@@ -921,8 +904,7 @@ body {
     width: 240px;
     column-gap: 18px;
 }
-.header-navigation-list-item {
-}
+
 .header-navigation-list-dark-item {
     max-width: 240px;
 }
@@ -941,8 +923,7 @@ body {
     width: 270px;
     column-gap: 18px;
 }
-.header-navigation-list-item-light {
-}
+
 .header-light-item-text {
     color: #2A1804;
     font-family: "Noto Serif TC";
@@ -951,15 +932,11 @@ body {
     line-height: 15px;
     letter-spacing: 0.36px;
 }
-.hero {
-}
-.hero-container {
-}
+
 .hero-list {
     margin-top: 140px;
 }
-.hero-list-item-button {
-}
+
 .hero-list-item-button-right {
     background-color: transparent;
     border: none;
@@ -974,16 +951,12 @@ body {
     height: 244px;
     left: 28px;
 }
-.hero-list-item-tbc {
-}
+
 .hero-list-item-img {
     width: 260px;
     height: 242px;
 }
-.hero-list-item-img-tbc {
-}
-.hero-list-item-white {
-}
+
 .hero-list-item-white-text {
     color: #2a1804;
     font-size: 12px;
@@ -992,14 +965,7 @@ body {
     letter-spacing: 0.398px;
     background: #fff;
 }
-.hero-list-item-gpm {
-}
-.hero-list-item-img-gpm {
-}
-.hero-list-item-sfrcb {
-}
-.hero-list-item-img-sfrcb {
-}
+
 .hero-list-item-button-left {
     background-color: transparent;
     border: none;
@@ -1008,12 +974,7 @@ body {
     right: 8px;
 }
 @media screen and (min-width:1200px) {
-    .header {
-    }
-    .header-container {
-    }
-    .container {
-    }
+  
     .header-title {
         color: #2a1804;
         font-size: 170px;
@@ -1025,8 +986,7 @@ body {
         padding: 0 9px;
         text-align: center;
     }
-    .header-navigation {
-    }
+   
     .header-navigation-list {
         width: 1200px;
     }
@@ -1064,10 +1024,7 @@ body {
         letter-spacing: 0.36px;
         font-size: 20px;
     }
-    .hero {
-    }
-    .hero-container {
-    }
+   
     .hero-list {
         position: absolute;
         top: 208px;
@@ -1075,10 +1032,7 @@ body {
     .hero-list-item-button {
         display: none;
     }
-    .hero-list-item-button-right {
-    }
-    .hero-list-item {
-    }
+   
     .hero-list-item-tbc {
         left: 23px;
         top: 60px;
@@ -1087,10 +1041,7 @@ body {
             width: 488px;
             height: 601px;
     }
-    .hero-list-item-img-tbc {
-    }
-    .hero-list-item-white {
-    }
+    
     .hero-list-item-white-text {
         color: #2a1804;
         font-size: 18px;
@@ -1104,16 +1055,12 @@ body {
         height: 602px;
         left: 358px;
     }
-    .hero-list-item-img-gpm {
-    }
+   
     .hero-list-item-sfrcb {
         width: 479px;
         height: 596px;
         left: 698px;
         top: 64px;
     }
-    .hero-list-item-img-sfrcb {
-    }
-    .hero-list-item-button-left {
-    }
+    
 }
