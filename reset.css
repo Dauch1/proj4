@@ -3,6 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 *,
 *:before,
 *:after {
@@ -42,6 +52,7 @@ input,
 button,
 textarea {
   font-family: inherit;
+  background-color: transparent;
 }
 
 input::-ms-clear {
