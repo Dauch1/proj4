@@ -9,7 +9,8 @@
 }
 
 .section-heading {
-  padding: 10px;
+  padding-left: 10px;
+  padding-bottom: 24px;
   color: #2a1804;
   font-family: "Noto Sans TC";
   font-size: 15px;
@@ -29,6 +30,7 @@
   justify-content: space-between;
   display: flex;
   align-items: center;
+  padding-left: 10px;
 }
 
 .shopping-list-points {
@@ -226,7 +228,9 @@ body {
   letter-spacing: 1.68px;
   width: 261px;
   margin: 0 auto;
-  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
 }
 
 .cookbook-image {
@@ -433,7 +437,8 @@ body {
 
 .popular-title {
   margin-bottom: 16px;
-  font-size: 12px;
+  padding-left: 12px;
+  font-size: 24px;
   line-height: 1.25;
 }
 
@@ -503,11 +508,6 @@ body {
   margin: 0 auto;
 }
 
-.container {
-  max-width: 306px;
-  margin: 0 auto;
-}
-
 .header-navigation-list-dark {
   display: flex;
   flex-wrap: wrap;
@@ -531,7 +531,6 @@ body {
 .header-navigation-list-light {
   display: flex;
   flex-wrap: wrap;
-  width: 270px;
   column-gap: 18px;
   margin-top: 8px;
 }
@@ -546,7 +545,7 @@ body {
 }
 
 .hero-container {
-  max-width: 294px;
+  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -556,6 +555,7 @@ body {
   color: #2a1804;
   font-size: 48px;
   font-weight: 700;
+  padding-left: 7px;
 }
 
 .hero-wrap {
@@ -625,9 +625,6 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .cookbook {
-    padding-top: 550px;
-  }
   .container {
     max-width: 1140px;
   }
@@ -1020,6 +1017,9 @@ body {
 
   .hero-list-item-button-left {
     display: none;
+  }
+  .hero {
+    padding-bottom: 550px;
   }
   .shopping-selection-little {
     margin-top: 60px;
