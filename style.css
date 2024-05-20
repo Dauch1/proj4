@@ -1019,7 +1019,7 @@ body {
     display: none;
   }
   .hero {
-    padding-bottom: 550px;
+    padding-bottom: 551px;
   }
   .shopping-selection-little {
     margin-top: 60px;
@@ -1029,7 +1029,7 @@ body {
     height: 3px;
     background-color: transparent;
   }
-  .shopping-minuse{
+  .shopping-minuse {
     background-color: transparent;
     border: none;
   }
