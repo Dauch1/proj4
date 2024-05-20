@@ -1026,8 +1026,12 @@ body {
   }
   .shopping-minuse-image {
     width: 15px;
-    height: 15px;
-    flex-shrink: 0;
+    height: 3px;
+    background-color: transparent;
+  }
+  .shopping-minuse{
+    background-color: transparent;
+    border: none;
   }
   .selection-input-line {
     width: 214px;
@@ -1038,7 +1042,7 @@ body {
   .shopping-plus-image {
     width: 15px;
     height: 15px;
-    flex-shrink: 0;
+    background-color: transparent;
   }
   .shopping-selection-little:last-child {
     margin-right: 30px;
