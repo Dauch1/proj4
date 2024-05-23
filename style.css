@@ -24,6 +24,13 @@
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+.selection-title-price {
+  color: #000;
+  font-family: "Noto Sans TC";
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.398px;
+}
 
 .shopping {
   flex-wrap: wrap;
@@ -68,7 +75,17 @@
   line-height: 9px;
   letter-spacing: 0.398px;
 }
-
+.shopping-reset-list-item {
+  color: #2a1804;
+  font-family: Roboto;
+  font-size: 7px;
+  line-height: 10px;
+  letter-spacing: 0.45px;
+}
+.shopping-reset-list {
+  display: flex;
+  flex-direction: column;
+}
 .selection-title {
   margin-right: 82px;
   color: #2a1804;
@@ -98,7 +115,13 @@
   line-height: 16px;
   letter-spacing: 0.36px;
 }
-
+.selection-title-cart {
+  color: #000;
+  font-family: "Noto Sans TC";
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.398px;
+}
 .selection-title-reset {
   margin-left: 2px;
   width: 55px;
@@ -1049,7 +1072,7 @@ body {
   }
   .selection-title {
     font-size: 24px;
-    margin-right: 37px;
+    margin-right: 74px;
   }
   .selection-title-reset {
     width: 121px;
@@ -1057,16 +1080,24 @@ body {
     flex-shrink: 0;
     font-size: 24px;
     line-height: 30px;
+    margin-left: 25px;
+  }
+  .shopping-reset-list-item {
+    color: #2a1804;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.45px;
   }
   .selection-title:first-child {
-    margin-right: 30px;
+    margin-right: 0px;
   }
   .selection-input {
     width: 137px;
     height: 32px;
     flex-shrink: 0;
     margin-left: 6px;
-    margin-right: 32px;
+    margin-right: 57px;
   }
 
   .section-heading {
@@ -1080,7 +1111,11 @@ body {
     align-content: flex-end;
     flex-direction: column;
   }
-
+  .shopping-reset-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
   .selection-input-inbox {
     width: 149px;
     height: 52px;
@@ -1106,12 +1141,21 @@ body {
     flex-shrink: 0;
     height: 194px;
   }
-
+  .selection-price {
+    display: flex;
+    justify-content: flex-end;
+  }
   .selection {
     width: 1200px;
     flex-shrink: 0;
   }
-
+  .selection-title-price {
+    color: #000;
+    font-family: "Noto Sans TC";
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.398px;
+  }
   .shopping {
     display: flex;
     gap: 37px;
@@ -1150,6 +1194,12 @@ body {
     line-height: 22px;
     font-size: 15px;
     margin-left: 30px;
+  }
+  .selection-title-cart {
+    color: #000;
+    font-family: "Noto Sans TC";
+    font-size: 24px;
+    line-height: 30px;
   }
   .shopping-heading-text-network {
     line-height: 22px;

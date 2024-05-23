@@ -550,11 +550,13 @@
       </section>
       <section class="selection">
         <h2 class="section-heading">Browse by category</h2>
-
-        <div class="shopping">
-
-          <ul class="shopping-list">
-            <li class="shopping-list-points">
+        <ul class="shopping-list">
+          <div class="shopping">
+            <li
+              data-value="15"
+              data-name="Dumplings & Bao"
+              class="shopping-list-points"
+            >
               <img
                 class="shopping-image"
                 src="./image/IMAGE24.webp"
@@ -584,7 +586,11 @@
                 <p class="shopping-heading-text-sum">0</p>
               </div>
             </li>
-            <li class="shopping-list-points">
+            <li
+              data-value="10"
+              data-name="Bing (餅)"
+              class="shopping-list-points"
+            >
               <img
                 class="shopping-image"
                 src="./image/IMAGE25.webp"
@@ -614,12 +620,8 @@
                 <p class="shopping-heading-text-sum">0</p>
               </div>
             </li>
-            <li class="shopping-list-points">
-              <img
-                class="shopping-image"
-                src="./image/IMAGE26.webp"
-                alt="Rice"
-              />
+            <li data-value="13" data-name="Rice" class="shopping-list-points">
+              <img class="shopping-image" src="./image/IMAGE26.webp" alt="Rice" />
               <div class="shopping-countainer">
                 <h3 class="shopping-heading-text">Rice</h3>
                 <div class="shopping-button">
@@ -644,7 +646,7 @@
                 <p class="shopping-heading-text-sum">0</p>
               </div>
             </li>
-            <li class="shopping-list-points">
+            <li data-value="25" data-name="Noodles" class="shopping-list-points">
               <img
                 class="shopping-image"
                 src="./image/IMAGE27.webp"
@@ -674,7 +676,11 @@
                 <p class="shopping-heading-text-sum">0</p>
               </div>
             </li>
-            <li class="shopping-list-points">
+            <li
+              data-value="17"
+              data-name="Small Eats"
+              class="shopping-list-points"
+            >
               <img
                 class="shopping-image"
                 src="./image/IMAGE28.webp"
@@ -704,17 +710,24 @@
                 <p class="shopping-heading-text-sum">0</p>
               </div>
             </li>
-          </ul>
-        </div>
+          </div>
+        </ul>
         <div class="shopping-reset-promocode">
           <div class="shopping-reset">
             <h3 class="selection-title">your cart:</h3>
+            
             <h3 class="selection-title">promocode:</h3>
           </div>
+          <ul class="shopping-reset-list"></ul>
+          <div class="selection-price">
+            <h3 class="selection-title-price"></h3>
+          </div>
           <div class="shopping-promocode">
+            
             <button class="selection-title-reset">reset all</button>
             <input class="selection-input" type="text" />
           </div>
+          <p class="selection-promocode"></p>
         </div>
       </section>
     </main>
