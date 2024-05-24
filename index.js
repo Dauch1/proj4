@@ -166,3 +166,71 @@ document.addEventListener("DOMContentLoaded", function () {
 
   updateCart();
 });
+const blockEl = document.querySelector(".hero-list");
+const listItem = document.querySelectorAll(".hero-list-item");
+const rightEl = document.querySelector(".hero-list-item-button-right")
+const leftEl = document.querySelector(".hero-list-item-button-left")
+listItem[0].classList.add("zindexOne");
+listItem[1].classList.add("zindexTwo");
+listItem[2].classList.add("zindexThree");
+if (window.screen.width >= 1200) {
+    let curentEl = document.querySelector(".hero-list-item-tbc").className;
+    blockEl.addEventListener("click", fun);
+    function fun(event) {
+        const currentElem = event.target.closest(".hero-list-item");
+        if (currentElem) {
+            if (currentElem.className === curentEl) {
+                return;
+            }
+            curentEl = currentElem.className;
+            listItem.forEach((item) => {
+                if (!(currentElem.className === item.className)) {
+                    if (item.classList.contains("zindexThree")) {
+                        item.classList.remove("zindexThree");
+                        item.classList.add("zindexTwo");
+                    } else if (item.classList.contains("zindexTwo")) {
+                        item.classList.remove("zindexTwo");
+                        item.classList.add("zindexOne");
+                    }
+                }
+            });
+            currentElem.classList.add("zindexThree");
+        }
+    }
+}
+if (window.screen.width < 1200) {
+    const ElementTree = document.querySelector('zindexThree')
+    let current = 2;
+    rightEl.addEventListener("click", right)
+    leftEl.addEventListener("click", left)
+    function right() {
+        current += 1;
+            if (current >= 3) {
+                current = 0;
+            }
+        listItem.forEach((item, index) => {
+            if (current === index) {
+                item.classList.add("zindexThree")
+            } else {
+                    item.classList.remove("zindexThree")
+                
+            }
+        });
+    }
+    function left() {
+        current -= 1;
+        if (current <= -1) {
+            current = 2;
+        }
+    listItem.forEach((item, index) => {
+        if (current === index) {
+            item.classList.add("zindexThree")
+        } else {
+                item.classList.remove("zindexThree")
+            
+        }
+    });
+
+    }
+
+}
