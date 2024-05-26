@@ -1,4 +1,4 @@
-let order = {};
+let order = [];
 let totalPrice = 0;
 let totalCart = document.querySelector(".selection-title");
 const resultEl = document.querySelector(".shopping-reset-list");
@@ -45,21 +45,12 @@ function plus(name) {
   order[`${name}`] += 1;
 }
 
-const discountApplied = false;
 function minusPrice(price) {
   totalPrice -= Number(price);
-  if (discountApplied) {
-    totalPrice += Number(price);
-  }
 }
-
 function plusPrice(price) {
   totalPrice += Number(price);
-  if (discountApplied) {
-    totalPrice -= Number(price);
-  }
 }
-
 function changeResult() {
   let result = "";
   let numbCart = 0;
@@ -84,23 +75,24 @@ function applyPromo() {
     promoP.textContent = "discount: 10%";
     totalPromo();
   } else {
-    promoP.textContent = "";
+    promoP.textContent = ``;
+    promoEl.textContent = ``;
   }
 }
-
 const totalPriceEl = document.querySelector(".selection-title-price");
 function updateCart() {
   let finalPrice = totalPrice;
-  if (discountApplied) {
-    finalPrice = totalPrice;
-  }
   totalPriceEl.innerText = `Total Price: $${finalPrice}`;
+
+  if (finalPrice < 0) {
+    totalPriceEl.innerText = `Total Price: $${0}`;
+  }
   return finalPrice;
 }
 const promoEl = document.querySelector(".total-price-promo");
 function totalPromo() {
-  const result = updateCart() * 0.9;
-  promoEl.textContent = `${result}`;
+    const result = updateCart() * 0.9;
+    promoEl.textContent = `${result}`;
 }
 const resetBtx = document.querySelector(".selection-title-reset");
 resetBtx.addEventListener("click", reset);
