@@ -93,6 +93,10 @@ const promoEl = document.querySelector(".total-price-promo");
 function totalPromo() {
     const result = updateCart() * 0.9;
     promoEl.textContent = `${result}`;
+    if (updateCart() < 0 ) {
+      const result = updateCart() * 0;
+    promoEl.textContent = `${result}`;
+    }
 }
 const resetBtx = document.querySelector(".selection-title-reset");
 resetBtx.addEventListener("click", reset);
