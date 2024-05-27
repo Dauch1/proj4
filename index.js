@@ -3,9 +3,7 @@ let totalPrice = 0;
 let totalCart = document.querySelector(".selection-title");
 const resultEl = document.querySelector(".shopping-reset-list");
 const shoppingList = document.querySelector(".shopping-list");
-
 shoppingList.addEventListener("click", products);
-
 function products(event) {
   if (
     event.target.className !== "shopping-plus-image" &&
@@ -31,6 +29,9 @@ function products(event) {
 
 function minuse(name) {
   order[`${name}`] -= 1;
+  if (!order[`${name}`]) {
+    return false;
+  }
   if (order[`${name}`] <= 0) {
     delete order[`${name}`];
   }
